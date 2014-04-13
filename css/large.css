@@ -10,6 +10,7 @@ h1{
 }
 
 table{
+	border-collapse:collapse;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 100;
 	margin:auto;

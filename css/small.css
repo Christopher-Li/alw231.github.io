@@ -5,28 +5,28 @@ body{
 h1{
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 100;
-    font-size: 16px;
+    font-size: 50px;
 	color: #EBEBEB;
 	text-align: center;
 }
 
 table{
+	border-collapse:collapse;
 	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 100;
     margin:auto;
-	width: 100%;
-	font-size: 11pt;
+	width: 101%;
+	font-size: 20pt;
 	text-align: left;
 	color: #EBEBEB;
-	padding: 0pt;
 }
 
 td{
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 35px;
 }
 
 #topBit{
-	margin-top:40px;
+	margin-top:90px;
 }
