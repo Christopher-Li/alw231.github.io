@@ -1,0 +1,27 @@
+body{
+	background-color: #31444E;
+}
+
+h1{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+	color: #EBEBEB;
+	text-align: center;
+}
+
+table{
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 100;
+	margin:auto;
+	width: 640px;
+	font-size: 15pt;
+	text-align: left;
+	color: #EBEBEB;
+	padding: 0pt;
+}
+
+td{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
