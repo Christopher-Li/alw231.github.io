@@ -8,7 +8,6 @@ $(function(){
 	
 	var asignColor = function(tr){
 		var color = getColor();
-		console.log(color);
 		$(tr).css("background-color", color);
 	}
 

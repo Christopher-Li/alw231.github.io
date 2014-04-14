@@ -115,8 +115,15 @@
 			
 			function processingRoutine() {
 				var swipedElement = document.getElementById(triggerElementID);
-				if ( swipeDirection == 'up' ) {
-					
+				if ( swipeDirection == 'left' ) {
+					// REPLACE WITH YOUR ROUTINES
+					swipedElement.style.backgroundColor = 'orange';
+				} else if ( swipeDirection == 'right' ) {
+					// REPLACE WITH YOUR ROUTINES
+					swipedElement.style.backgroundColor = 'green';
+				} else if ( swipeDirection == 'up' ) {
+					// REPLACE WITH YOUR ROUTINES
+					swipedElement.style.backgroundColor = 'maroon';
 				} else if ( swipeDirection == 'down' ) {
 					// REPLACE WITH YOUR ROUTINES
 					swipedElement.style.backgroundColor = 'purple';
