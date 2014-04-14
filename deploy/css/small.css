@@ -31,3 +31,11 @@ td{
 #topBit{
 	margin-top:90px;
 }
+
+.ping:hover .fa-stop,
+.ping .fa-dot-circle-o {
+	display: none;
+}
+.ping:hover .fa-dot-circle-o{
+	display: inline;
+}

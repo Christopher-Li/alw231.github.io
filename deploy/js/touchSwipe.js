@@ -1,16 +1,4 @@
-<!DOCTYPE html>
-<html>
-<div style= "width: 100%; height: 100%; position:fixed; left:0; top:0; overflow:hidden;">
-<head>
-
-<link rel='stylesheet' media='screen and (max-width: 640px)' href='css/small.css' />
-<link rel='stylesheet' media='screen and (min-width: 641px)' href='css/large.css' />
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-
-<script src="./js/jquery.js"></script>
-<script type="text/javascript" src="./js/getColor.js"></script>
-<script type="text/javascript">
-			// TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
+// TOUCH-EVENTS SINGLE-FINGER SWIPE-SENSING JAVASCRIPT
 			// Courtesy of PADILICIOUS.COM and MACOSXAUTOMATION.COM
 			
 			// this script can be used with one or more page elements to perform actions based on them being swiped with a single finger
@@ -127,42 +115,11 @@
 			
 			function processingRoutine() {
 				var swipedElement = document.getElementById(triggerElementID);
-				if ( swipeDirection == 'left' ) {
-					// REPLACE WITH YOUR ROUTINES
-					swipedElement.style.backgroundColor = 'orange';
-				} else if ( swipeDirection == 'right' ) {
-					// REPLACE WITH YOUR ROUTINES
-					swipedElement.style.backgroundColor = 'green';
-				} else if ( swipeDirection == 'up' ) {
-					// REPLACE WITH YOUR ROUTINES
-					swipedElement.style.backgroundColor = 'maroon';
+				if ( swipeDirection == 'up' ) {
+					
 				} else if ( swipeDirection == 'down' ) {
 					// REPLACE WITH YOUR ROUTINES
 					swipedElement.style.backgroundColor = 'purple';
 				}
 			}
 		
-</script>
-
-</head>
-<body>
-
-<div id="swipeBox" ontouchstart="touchStart(event,'swipeBox');"  ontouchend="touchEnd(event);" ontouchmove="touchMove(event);" ontouchcancel="touchCancel(event);" style="position:relative;width:100%;height:100%;">
-
-<div id='topBit'>
-<h1>meet up</h1>
-</div>
-<table cellspacing="0">
-	<tr><td><span style="font-weight: 800">Mable Hanson</span> wants to<br>hit up Chipotle.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Judy Zhou</span> wants to <br>work on the EA homework.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Jack Kim</span> wants to <br>order wings.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Clare Hunter</span> wants to <br>visit the art institute in Chicago.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Eddie French</span> wants to <br>Watch the new Captain America.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Albert Ferguson</span> wants to <br>get dinner at Sargent.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td><span style="font-weight: 800">Bonnie Wang</span> wants to <br>explore downtown Evanston.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-	<tr><td ><span style="font-weight: 800">Annie Harper</span> wants to <br>go to Urban Outfitters.</td><td width=20%, style="font-size: 40px;text-align: center"><i class="fa fa-dot-circle-o"></i></td></tr>
-</table>
-</div>	
-</body>
-</div>	
-</html>
